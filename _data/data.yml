@@ -1,0 +1,115 @@
+sidebar:
+    # Site Settings
+    title: Mahesh
+    url: 'http://mahesh.work'
+    about: false
+    
+    # Profile information
+    name: Mahesh Shukla
+    tagline: Software Engineer
+    pic: profile.jpg  
+    
+    # Sidebar links
+    email: mahesh@mahesh.work
+    phone: +91 9892058581
+    website: mahesh.ws
+    linkedin: xMaheshx
+    github: xMaheshx
+    twitter: '@xMaheshx'
+
+    languages:
+        - language:
+          idiom: Hindi
+          level: Native
+        - language:
+          idiom: English
+          level: Professional
+        
+    interests:
+        - interest:
+          item: TV Shows
+          link:
+        - interest:
+          item: Gaming
+          link:
+        - interest:
+          item: Surfing
+          link:
+
+career-profile: 
+    title: Career Profile
+    text: 'Problem-solving software engineering professional with a positive attitude. Strong conceptual thinking skills and an excellent ability to learn new concepts quickly. Promotes excellent communication and organizational skills.'
+
+
+studies: 
+    - education:
+      degree: B.E in Computer Science
+      university: University of Mumbai
+      time: 2011 - 2015
+
+experiences:
+      - experience:
+        role: Software Engineer
+        company: Capgemini India Pvt. Ltd.
+        time: "2015 - Present"
+
+projects:
+    title: Projects
+    intro: "Some Personal Projects"
+    
+    projects:
+      - project:
+        title: Random App
+        link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
+        tagline: "A Random Generator to generate random numbers, texts, randomize lists or toss coin(s)."
+      - project:
+        title: Rail App for Android &amp; Web 
+        link: "#"
+        tagline: "Material Design Android App and Web to get PNR Status, Seat Availability, Fare, Trains between Stations, Live Train Status/Tracking & Train Schedule (unpublished)."
+      - project:
+        title: Travel Assist Android App
+        link: "https://github.com/xMaheshx/Travel-Assist"
+        tagline: "A Complete Travel Assitance for Mumbai including Multi Agency Trains (Locals, Mono rail, Metro in one), buses along with Taxi and Auto Fare Estimations."
+      - project:
+        title: Cricket World Cup 2015 App
+        link: "https://github.com/xMaheshx/CricketWorldCup2015"
+        tagline: "An Unoffical Cricket World Cup 2015 Android App."
+      - project:
+        title: VERVE 2014 Android App
+        link: "https://play.google.com/store/apps/details?id=com.mahesh.verve"
+        tagline: "An Android App for College Fest."
+      - project:
+        title: VIT ACM Chapter Android App
+        link: "https://play.google.com/store/apps/details?id=com.mahesh.vitacm"
+        tagline: "An Android App for ACM Chapter College Events."
+
+publications:
+    title: Honors & Awards
+    
+    publications:
+      - paper:
+        title: STAR Award
+        authors: Capgemini India Pvt. Ltd
+        conference: "Star Award for H2 2016"
+      - paper:
+        title: Project Star Award
+        authors: Capgemini India Pvt. Ltd
+        conference: "Excellence in Customer Delivery H2 2015"
+      - paper:
+        title: First Place at the Annual Final Year BE Project Competition
+        authors: Vidyalankar Institute of Technology
+        conference: "Award for best project - Travel Assit"
+
+skills:
+    title: Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: Java
+          level: 90%
+        - skill:
+          name: Android
+          level: 80%
+
+
+footer: 
+    text: '<a href="http://mahesh.ws" target="_blank" rel="nofollow">Mahesh</a>'
