@@ -3,19 +3,19 @@ sidebar:
     title: Mahesh
     url: 'http://mahesh.work'
     about: false
-    
+
     # Profile information
     name: Mahesh Shukla
     tagline: Software Engineer
-    pic: profile.jpg  
-    
+    pic: profile.jpg
+
     # Sidebar links
     email: mahesh@mahesh.work
     phone: +91 9892058581
-    website: mahesh.ws
+    website: mahesh.work
     linkedin: xMaheshx
     github: xMaheshx
-    twitter: '@xMaheshx'
+    twitter: '@x_Mahesh_x'
 
     languages:
         - language:
@@ -24,7 +24,7 @@ sidebar:
         - language:
           idiom: English
           level: Professional
-        
+
     interests:
         - interest:
           item: TV Shows
@@ -36,12 +36,12 @@ sidebar:
           item: Surfing
           link:
 
-career-profile: 
+career-profile:
     title: Career Profile
     text: 'Problem-solving software engineering professional with a positive attitude. Strong conceptual thinking skills and an excellent ability to learn new concepts quickly. Promotes excellent communication and organizational skills.'
 
 
-studies: 
+studies:
     - education:
       degree: B.E in Computer Science
       university: University of Mumbai
@@ -56,14 +56,14 @@ experiences:
 projects:
     title: Projects
     intro: "Some Personal Projects"
-    
+
     projects:
       - project:
         title: Random App
         link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
         tagline: "A Random Generator to generate random numbers, texts, randomize lists or toss coin(s)."
       - project:
-        title: Rail App for Android &amp; Web 
+        title: Rail App for Android &amp; Web
         link: "#"
         tagline: "Material Design Android App and Web to get PNR Status, Seat Availability, Fare, Trains between Stations, Live Train Status/Tracking & Train Schedule (unpublished)."
       - project:
@@ -85,20 +85,20 @@ projects:
 
 publications:
     title: Honors & Awards
-    
+
     publications:
       - paper:
         title: STAR Award
-        authors: Capgemini India Pvt. Ltd
+        authors: Capgemini India Private Limited
         conference: "Star Award for H2 2016"
       - paper:
         title: Project Star Award
-        authors: Capgemini India Pvt. Ltd
+        authors: Capgemini India Private Limited
         conference: "Excellence in Customer Delivery H2 2015"
       - paper:
         title: First Place at the Annual Final Year BE Project Competition
         authors: Vidyalankar Institute of Technology
-        conference: "Award for best project - Travel Assit"
+        conference: "Award for best project - Travel Assist"
 
 skills:
     title: Skills &amp; Proficiency
@@ -111,5 +111,5 @@ skills:
           level: 80%
 
 
-footer: 
+footer:
     text: '<a href="http://mahesh.ws" target="_blank" rel="nofollow">Mahesh</a>'
