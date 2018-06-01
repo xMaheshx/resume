@@ -63,17 +63,21 @@ projects:
         link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
         tagline: "A Random Generator to generate random numbers, texts, randomize lists or toss coin(s)."
       - project:
-        title: Rail App for Android &amp; Web
-        link: "#"
-        tagline: "Material Design Android App and Web to get PNR Status, Seat Availability, Fare, Trains between Stations, Live Train Status/Tracking & Train Schedule (unpublished)."
+        title: Rail App for Android 
+        link: "https://bitbucket.org/maxxroid/railappandroid/"
+        tagline: "Material Design Android App to get PNR Status, Seat Availability, Fare, Trains between Stations, Live Train Status/Tracking & Train Schedule (private source)."
+      - project:
+        title: Rail App for Web
+        link: "https://bitbucket.org/maxxroid/railappweb/"
+        tagline: "Material Design Web App to get PNR Status, Seat Availability, Live Train Status/Tracking & Train Schedule (private source)."
       - project:
         title: Travel Assist Android App
         link: "https://github.com/xMaheshx/Travel-Assist"
-        tagline: "A Complete Travel Assitance for Mumbai including Multi Agency Trains (Locals, Mono rail, Metro in one), buses along with Taxi and Auto Fare Estimations."
+        tagline: "A Complete Travel Assistance for Mumbai including Trains (Locals, Mono Rail, Metro in one), BEST Buses along with Taxi and Auto Fare Estimations."
       - project:
         title: Cricket World Cup 2015 App
         link: "https://github.com/xMaheshx/CricketWorldCup2015"
-        tagline: "An Unoffical Cricket World Cup 2015 Android App."
+        tagline: "An Unofficial Cricket World Cup 2015 Android App."
       - project:
         title: VERVE 2014 Android App
         link: "https://play.google.com/store/apps/details?id=com.mahesh.verve"
