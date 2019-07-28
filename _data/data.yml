@@ -60,7 +60,7 @@ projects:
     projects:
       - project:
         title: MBM App
-        link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
+        link: "http://megablock.in"
         tagline: "React based app for Mumbai local trains"
       - project:
         title: Random App
