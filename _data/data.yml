@@ -11,7 +11,7 @@ sidebar:
 
     # Sidebar links
     email: mahesh@mahesh.work
-    phone: +91 9892058581
+    phone: +91 9833006283
     website: mahesh.work
     linkedin: xMaheshx
     github: xMaheshx
@@ -49,7 +49,7 @@ studies:
 
 experiences:
       - experience:
-        role: Software Engineer
+        role: Consultant
         company: Capgemini India Pvt. Ltd.
         time: "2015 - Present"
 
@@ -59,11 +59,15 @@ projects:
 
     projects:
       - project:
+        title: MBM App
+        link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
+        tagline: "React based app for Mumbai local trains"
+      - project:
         title: Random App
         link: "https://play.google.com/store/apps/details?id=ws.mahesh.apps.randomgenerator"
         tagline: "A Random Generator to generate random numbers, texts, randomize lists or toss coin(s)."
       - project:
-        title: Rail App for Android 
+        title: Rail App for Android
         link: "https://bitbucket.org/maxxroid/railappandroid/"
         tagline: "Material Design Android App to get PNR Status, Seat Availability, Fare, Trains between Stations, Live Train Status/Tracking & Train Schedule (private source)."
       - project:
@@ -92,6 +96,10 @@ publications:
 
     publications:
       - paper:
+        title: Enabling Champion Award
+        authors: Capgemini India Private Limited
+        conference: "Star Award for H2 2018"
+      - paper:
         title: STAR Award
         authors: Capgemini India Private Limited
         conference: "Star Award for H2 2016"
@@ -111,9 +119,15 @@ skills:
           name: Java
           level: 90%
         - skill:
-          name: Android
+          name: Docker
           level: 80%
+        - skill:
+          name: Android
+          level: 60%
+        - skill:
+          name: React
+          level: 40%
 
 
 footer:
-    text: '<a href="http://mahesh.ws" target="_blank" rel="nofollow">Mahesh</a>'
+    text: '<a href="http://mahesh.work" target="_blank" rel="nofollow">Mahesh</a>'
