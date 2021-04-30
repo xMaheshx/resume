@@ -5,11 +5,11 @@ layout: default
 
 {% include career-profile.html %}
 
-{% if site.education_in_main %}
-    {% include education.html %}
-{% endif %}
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-{% include experience.html %}
+{% include experiences.html %}
 
 {% include projects.html %}
 

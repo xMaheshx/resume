@@ -1,56 +1,32 @@
-<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+{% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
-   <div class="profile-container">
+  <div class="profile-container">
 
-       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.data.data.sidebar.pic }}" alt="profile picture" />
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
 
-       {% if site.data.data.sidebar.name %}
-       <h1 class="name">{{site.data.data.sidebar.name}}</h1>
-       {% endif %}
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
 
-       {% if site.data.data.sidebar.tagline %}
-       <h3 class="tagline">{{site.data.data.sidebar.tagline}}</h3>
-       {% endif %}
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
 
-   </div><!--//profile-container-->
+  </div><!--//profile-container-->
 
-   <div class="contact-container container-block">
-       <ul class="list-unstyled contact-list">
+  {% include contact.html %}
 
-          {% if site.data.data.sidebar.email %}
-           <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.data.data.sidebar.email}}">{{site.data.data.sidebar.email}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.phone %}
-           <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.data.data.sidebar.phone}}">{{site.data.data.sidebar.phone}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.website %}
-           <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.data.data.sidebar.website}}" target="_blank">{{site.data.data.sidebar.website}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.linkedin %}
-           <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/{{site.data.data.sidebar.linkedin}}" target="_blank">{{site.data.data.sidebar.linkedin}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.github %}
-           <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.data.data.sidebar.github}}" target="_blank">{{site.data.data.sidebar.github}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.twitter %}
-           <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.data.data.sidebar.twitter}}" target="_blank">{{site.data.data.sidebar.twitter}}</a></li>
-           {% endif %}
-
-       </ul>
-   </div><!--//contact-container-->
-
-  {% if site.education_in_main == null or site.education_in_main == false %}
+  {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
+
   {% include language.html %}
   {% include interests.html %}
-  {% if site.data.data.sidebar.about == true %}
+
+  {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
 
